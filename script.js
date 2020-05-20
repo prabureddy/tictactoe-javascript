@@ -3,11 +3,6 @@ var squares = document.querySelectorAll("td");
 var i,j;
 confirm("Press a button!");
 
-function restart(){
-	for (i = 0; i < squares.length; i++) {
-        squares[i].textContent = "";
-    }
-}
 restart.addEventListener("click", function () {
     for (i = 0; i < squares.length; i++) {
         squares[i].textContent = "";
